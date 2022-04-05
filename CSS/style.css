@@ -388,6 +388,11 @@ ul {
   border: none;
   text-transform: uppercase; 
 }
+@media (max-width:992px) {
+  .prices .container .plan .box .head button {
+    left: 100px;
+  }
+}
 @media (max-width:768px) {
   .prices .container .plan .box .head button {
     left:105px;
